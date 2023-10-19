@@ -1,0 +1,25 @@
+{
+  "name": "generator-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "author": "Alyona <glmalyona@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GLM-Alyona/generator-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GLM-Alyona/generator-server/issues"
+  },
+  "homepage": "https://github.com/GLM-Alyona/generator-server#readme"
+}
